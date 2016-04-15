@@ -4,7 +4,7 @@
 // Set RTC options.
 var rtcOpts = {
     room: 'test-room',
-    signaller: 'https://switchboard.rtc.io'
+    signaller: 'http://rtc-io-switchboard.herokuapp.com'
 };
 // call RTC module
 var rtc = RTC(rtcOpts);
